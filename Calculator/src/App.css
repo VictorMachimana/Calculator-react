@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+/*----calculator body--*/
+.calc-body {
+  max-width: 350px;
+  margin: 20px auto;
+  border: 5px double black;
+  background-color: rgba(8, 112, 52, 0.836);
+}
+
+/*----display for calculator--*/
+.result {
+  height: 80px;
+  background-color: #bbb;
+  width: 100%;
+}
+
+.result p {
+  font-size: 40px;
+}
+
+/*----buttons for calculator--*/
+.buttons {
+  display: block;
+  background-color: #bbb;
+}
+
+.buttons button {
+  width: 25%;
+  height: 60px;
+  font-size: 30px;
+}
+
+/*--header text--*/
+.logoName {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+}
